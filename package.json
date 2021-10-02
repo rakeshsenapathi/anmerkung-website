@@ -2,10 +2,11 @@
   "name": "anmerkung",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "scripts/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node-sass --include-path scss ./css/main.scss ./styles.css"
+    "css": "node-sass --watch --include-path scss ./css/main.scss ./styles.css",
+    "watch:css": "npm run css"
   },
   "author": "",
   "license": "ISC",

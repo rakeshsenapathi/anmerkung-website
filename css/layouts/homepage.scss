@@ -1,0 +1,45 @@
+#home-header-section {
+    .new-now-serving {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 200px;
+        padding: 5px;
+        width: fit-content;
+        height: 36px;
+
+        .button {
+            background: #1E46F2;
+            border-radius: 200px;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 18px;
+            letter-spacing: 1.5px;
+            padding: 4px 10px;
+            width: fit-content;
+        }
+
+        .now-serving {
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 0.5px;
+            width: fit-content;
+        }
+
+    }
+
+    .company-tagline {
+        font-weight: 600;
+        font-size: 58px;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+
+    .caption {
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 30px;
+        // text-align: center;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+}

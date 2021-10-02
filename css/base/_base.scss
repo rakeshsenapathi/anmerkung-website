@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+.row {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a,
+a:visited,
+a:hover {
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+.bg-cover-image {
+    background-image: linear-gradient(180deg, #000000 0%,
+            rgba(0, 0, 0, 0.4) 10.61%,
+            rgba(0, 0, 0, 0.05) 42.62%,
+            #000000 78.97%), url(../../images/Cover_Image.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+header {
+    padding-top: 50px;
+
+    .company-name {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        cursor: pointer;
+
+        :hover {
+            color: inherit;
+        }
+    }
+
+    .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 12px;
+        color: inherit;
+        text-transform: uppercase;
+
+        a:hover {
+            text-decoration: none;
+            background-color: transparent !important;
+        }
+    }
+}
