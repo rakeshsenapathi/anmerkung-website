@@ -1,7 +1,19 @@
+* {
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+
 .color-black {
     color: #000;
 }
 
 .color-white {
     color: #fff;
+}
+
+
+.section-title-gradient {
+    background: linear-gradient(82.51deg, #0FC28D 12.26%, #15B7C1 39.17%, #1A9DC6 60.29%, #0C6DC7 94.89%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }

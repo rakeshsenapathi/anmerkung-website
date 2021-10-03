@@ -23,8 +23,20 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+
+    <!-- Owl Carousel -->
+    <!-- Basic stylesheet -->
+    <link rel="stylesheet" href="./../vendors/owl-carousel/owl.carousel.css">
+
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="./../vendors/owl-carousel/owl.theme.css">
+
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Include js plugin -->
+    <script src="./../vendors/owl-carousel/owl.carousel.js"></script>
+
 
     <!-- Script files -->
     <script src="../scripts/index.js"></script>
@@ -34,7 +46,7 @@
 <body>
 
     <!-- Header Section with background image and company overview-->
-    <section id="home-header-section" class="bg-cover-image color-white position-relative">
+    <section id="home-header" class="bg-cover-image color-white position-relative">
         <!-- Header File -->
         <div id="header"></div>
 
@@ -47,19 +59,360 @@
         <!-- Company Tagline, caption, work email inputbox and get started button -->
         <div class="row text-center d-flex flex-column justify-content-end">
             <div class="company-tagline m-t-30rem">Enabling You To Build The Future of AI</div>
-            <div class="caption m-t-1rem">
+            <div class="caption">
                 High Quality Training Data for NLP & Computer Vision. Text, Image & Video Annotations, In 2D & 3D.
             </div>
             <!-- Email input and get started button -->
-            <div class="row d-flex flex-row w-fit-content m-t-3rem">
-                <input type="email" placeholder="'Enter your work email'">
+            <div class="row d-flex flex-row m-t-3rem justify-content-center">
+                <input class="w-fit-content color-white" type="email" placeholder="Enter your work email">
+                <button type="button" class="w-fit-content btn btn-primary">Get Started</button>
             </div>
         </div>
 
     </section>
 
+    <!-- What we offer -->
+    <section id="what-we-offer">
+        <!-- What we offer text, title, description -->
+        <div class="row m-t-10rem d-flex flex-column justify-content-center text-center">
+            <div class="section-title-gradient title">What We Offer</div>
+            <div class="tagline color-black">Data Labelling, Solved.</div>
+            <div class="description color-black m-t-30">
+                Machine Learning Life Cycles Require High Quality Training Data As Step 1. We Help Accelerate
+                Development of AI By Providing Text, Image & Video Data Annotation Services For All Conversational AI &
+                Computer Vision Use Cases.
+            </div>
+        </div>
+
+        <!-- Animated Oval Shape Place Holder -->
+        <div style="background: url(../images/Solar.svg) no-repeat center center;
+        background-size: 105%;
+        height: 650px;color: transparent;">sdg</div>
+
+        <!-- Car Image -->
+        <div class="row m-t-3rem">
+            <img class="w-100" src="../images/Offerings_Car_Image.svg" alt="Offerings_Car_Image">
+        </div>
+        <!-- Button, Questions? -->
+        <div class="row d-flex flex-row m-t-3rem justify-content-center align-items-center questions-container">
+            <button type="button" class="w-fit-content btn btn-primary m-r-30">View All Offerings</button>
+            <div class="w-fit-content">
+                <a href>
+                    <span class="text-decoration-underline">Questions? Talk to an expert</span>
+                    <span class="m-l-10"><img src="../images/arrow_blue.svg"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Customers Choose -->
+    <section id="why-customers-choose" class="m-t-10rem bg-black color-white">
+        <div class="row pd-t-10rem pd-b-10rem">
+            <div class="d-flex flex-column col-12">
+                <div class="col-12 d-flex flex-row why-container">
+                    <div class="col-6 why-choose-text">
+                        Why customers choose Anmerkung?
+                    </div>
+                    <div class="col-6 d-flex flex-column position-relative m-l-3_2rem">
+                        <div class="main-description">
+                            Anmerkung Is A Platform Agnostic, Scalable Workforce Partner For Some Of The Largest Names
+                            In AI. We Quietly Power Your ML Life Cycle With A Highly Skilled, Trained Workforce.
+                        </div>
+                        <button type="button" class="btn btn-secondary w-fit-content">Get Started</button>
+
+                        <img class="position-absolute car-steering-image"
+                            src="../images/why_customers_choose/car_steering.png" alt="car_steering_image">
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-row features-container">
+                    <div class="col-3 neon-lights feature">
+                        <img src="../images/why_customers_choose/neon_lights_purge.png">
+                    </div>
+                    <div class="col-3 feature feature-with-text">
+                        <div class="title">
+                            Highly Scalable Workforce
+                        </div>
+                        <div class="description">
+                            Trained Workforce That Can Scale Based On Your Needs. Need 500 People On A Project
+                            Immediately?
+                            <p class="talk-to-us-text">Talk To Us.</p>
+                        </div>
+                    </div>
+                    <div class="col-6 position-relative">
+                        <!-- <img src="../images/why_customers_choose/car_steering.png"> -->
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-row features-container">
+                    <div class="col-3 feature feature-with-text">
+                        <div class="title">
+                            Platform Agnostic
+                        </div>
+                        <div class="description">
+                            We Understand You Might Have Your Own Tools Or Have Partners Of Choice Based On Expertise,
+                            Our Mighty Elastic Workforce Is Trained On The Best Tools In The Industry For A Minimum of
+                            2000+ Hours.
+                        </div>
+                    </div>
+                    <div class="col-3 neon-lights feature">
+                        <img src="../images/why_customers_choose/blue_neon_with__people.png">
+                    </div>
+                    <div class="col-3 feature feature-with-text">
+                        <div class="title">
+                            Partner Of Choice
+                        </div>
+                        <div class="description">
+                            Anmerkung Is The Services Partner Of Choice For Some Of The Largest Platform Providers,
+                            OEMs, Tier 1 Suppliers, Retailers & Document Processing Companies.
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <!-- <img src="../images/why_customers_choose/car_steering.png"> -->
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-row features-container">
+                    <div class="col-3 feature feature-with-text"></div>
+                    <div class="col-3 feature feature-with-text">
+                        <div class="title">
+                            Certified For Security & Quality
+                        </div>
+                        <div class="description">
+                            We Understand You Need Your Data To Be Of The Highest Quality & Highly Secure. We’re
+                            Optimized For Cloud & On-Prem And Scale Based On Your Needs.
+                            ISO 27001, GDPR, Access Controlled Environments?
+                            <p class="talk-to-us-text">Done.</p>
+                        </div>
+                    </div>
+                    <div class="col-3"></div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Carousel -->
+    <section id="testimonials" class="bg-white pd-t-10rem">
+
+        <!-- Carousel Container -->
+        <div id="testimonial-carousel" class="row carousel slide" data-bs-ride="carousel">
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <!-- testimonial text -->
+                        <div class="testimonial-text text-center">
+                            1. <span class="talk-to-us-text">Anmerkung</span> has been instrumental in ensuring that our
+                            data
+                            annotation needs are catered to
+                            keeping in mind stringent GDPR laws. They’ve passed all requirements with flying colours in
+                            a long standing relationship.
+                        </div>
+                        <!-- testimonial user image -->
+                        <div class="m-t-30">
+                            <img src="./../images/testimonials_crousel/testimonial_1.png">
+                        </div>
+                        <!-- testimonial user designation -->
+                        <div class="caption">
+                            Director of ADAS
+                        </div>
+                        <!-- testimonial user sub designation -->
+                        <div class="sub-caption">
+                            European Tier 1 Supplier, Automotive
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <!-- testimonial text -->
+                        <div class="testimonial-text text-center">
+                            2. <span class="talk-to-us-text">Anmerkung</span> has been instrumental in ensuring that our
+                            data annotation needs are catered to
+                            keeping in mind stringent GDPR laws. They’ve passed all requirements with flying colours in
+                            a long standing relationship.
+                        </div>
+                        <!-- testimonial user image -->
+                        <div class="m-t-30">
+                            <img src="./../images/testimonials_crousel/testimonial_1.png">
+                        </div>
+                        <!-- testimonial user designation -->
+                        <div class="caption">
+                            Director of ADAS
+                        </div>
+                        <!-- testimonial user sub designation -->
+                        <div class="sub-caption">
+                            European Tier 1 Supplier, Automotive
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <!-- testimonial text -->
+                        <div class="testimonial-text text-center">
+                            3. <span class="talk-to-us-text">Anmerkung</span> has been instrumental in ensuring that our
+                            data annotation needs are catered to
+                            keeping in mind stringent GDPR laws. They’ve passed all requirements with flying colours in
+                            a long standing relationship.
+                        </div>
+                        <!-- testimonial user image -->
+                        <div class="m-t-30">
+                            <img src="./../images/testimonials_crousel/testimonial_1.png">
+                        </div>
+                        <!-- testimonial user designation -->
+                        <div class="caption">
+                            Director of ADAS
+                        </div>
+                        <!-- testimonial user sub designation -->
+                        <div class="sub-caption">
+                            European Tier 1 Supplier, Automotive
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators m-t-30 d-flex flex-row justify-content-center align-items-center">
+                <li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#testimonial-carousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#testimonial-carousel" data-bs-slide-to="2"></li>
+            </ol>
+            <!-- Carousel controls -->
+            <!-- <a class="carousel-control-prev" href="#testimonial-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a> -->
+        </div>
+
+        <!-- Gradiend Background -->
+        <div class="section-title-gradient m-t-5rem bg-teal-gradient h-15px w-100"></div>
+    </section>
+
+    <!-- Use Cases -->
+    <section id="use-cases" class="bg-black color-white pd-t-10rem pd-b-10rem">
+        <div class="use-cases-container d-flex flex-row">
+            <!-- UseCases -->
+            <div class="col-4 d-flex flex-column margin-0-auto pd-r-30">
+                <div class="section-title-gradient industry-text">Industry</div>
+                <div class="title">Use Cases</div>
+                <div class="description mt-1">
+                    Develop highly accurate perception models to locate and identify objects of various
+                    classes, classify entire images, extract structured text from images, and more. Scale Image
+                    supports.
+                </div>
+                <button type="button" class="w-fit-content btn btn-primary m-r-30 mt-5">
+                    Building Enterprise AI? Talk To Us
+                </button>
+            </div>
+
+            <div class="col-2"></div>
+
+            <!-- Carousel -->
+            <div class="col-6 d-flex flex-column margin-0-auto">
+                <div class="d-flex flex-row justify-content-end buttons-container">
+                    <img id="use-cases-carousel-left" class="pointer-icon" src="./../images/arrow_left.png">
+                    <img id="use-cases-carousel-right" class="pointer-icon m-l-40" src="./../images/arrow_right.png">
+                </div>
+                <div id="use-cases-carousel" class="m-t-30 owl-carousel owl-theme d-flex flex-row justify-content-end">
+                    <div class="d-flex flex-column use-case">
+                        <div>
+                            <img src="./../images/use_cases/use_case1.png">
+                        </div>
+                        <div class="title m-t-30">Autonomous Vehicles</div>
+                        <div class="description m-t-15">High Quality Training & Validation Data For Autonomous Driving
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column use-case">
+                        <div>
+                            <img src="./../images/use_cases/use_case2.png">
+                        </div>
+                        <div class="title m-t-30">Retail & eCommerce</div>
+                        <div class="description m-t-15">
+                            Powering Innovation In Retail & ECommerce With Training &
+                            Validation Data, Including For Augmented Reality & Virtual Reality Model Development.
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column use-case">
+                        <div>
+                            <img src="./../images/use_cases/use_case3.png">
+                        </div>
+                        <div class="title m-t-30">Robotics</div>
+                        <div class="description m-t-15">
+                            Computer Vision Is Changing Manufacturing Forever. We’re Helping
+                            Build Training Data With Pixel Perfect Accuracy, Multiple Classes & Shapes.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="bg-black color-white pd-b-10rem">
+        <div class="pd-t-10rem  d-flex flex-row justify-content-center text-center row title">
+            Resources
+        </div>
+        <div class="row">
+            <div class="d-flex flex-row justify-content-end buttons-container">
+                <img id="resources-carousel-left" class="pointer-icon" src="./../images/arrow_left.png">
+                <img id="resources-carousel-right" class="pointer-icon m-l-40" src="./../images/arrow_right.png">
+            </div>
+            <div id="resources-carousel" class="m-t-5rem owl-carousel owl-theme d-flex flex-row align-content-center justify-content-center">
+                <div class="d-flex flex-column resource">
+                    <div>
+                        <img src="./../images/resources/resource_1.png">
+                    </div>
+                    <div class="title m-t-30">Tempor potenti comm.</div>
+                    <div class="type m-t-15">Blog</div>
+                    <div class="description m-t-15">
+                        Accumsan, quis aliquam proin arcu quis amet, sed eu quisque. Cursus adipiscing senectus eget
+                        adipiscing aliquam ipsum, non, blandit lobortis. Sollicitudin netus felis, ut vitae cursus
+                        ultricies tempor in. Amet leo quam.
+                    </div>
+                    <div class="learn-more m-t-15 pointer-icon w-fit-content">
+                        Learn More <img src="./../images/arrow_right.png">
+                    </div>
+                </div>
+                <div class="d-flex flex-column resource">
+                    <div>
+                        <img src="./../images/resources/resource_2.png">
+                    </div>
+                    <div class="title m-t-30">Tempor potenti comm.</div>
+                    <div class="type m-t-15">Case Study</div>
+                    <div class="description m-t-15">
+                        Accumsan, quis aliquam proin arcu quis amet, sed eu quisque. Cursus adipiscing senectus eget
+                        adipiscing aliquam ipsum, non, blandit lobortis. Sollicitudin netus felis, ut vitae cursus
+                        ultricies tempor in. Amet leo quam.
+                    </div>
+                    <div class="learn-more m-t-15 pointer-icon w-fit-content">
+                        Learn More <img src="./../images/arrow_right.png">
+                    </div>
+                </div>
+                <div class="d-flex flex-column resource">
+                    <div>
+                        <img src="./../images/resources/resource_1.png">
+                    </div>
+                    <div class="title m-t-30">Tempor potenti comm.</div>
+                    <div class="type m-t-15">Blog</div>
+                    <div class="description m-t-15">
+                        Accumsan, quis aliquam proin arcu quis amet, sed eu quisque. Cursus adipiscing senectus eget
+                        adipiscing aliquam ipsum, non, blandit lobortis. Sollicitudin netus felis, ut vitae cursus
+                        ultricies tempor in. Amet leo quam.
+                    </div>
+                    <div class="learn-more m-t-15 pointer-icon w-fit-content">
+                        Learn More <img src="./../images/arrow_right.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
     <div id="footer"></div>
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
