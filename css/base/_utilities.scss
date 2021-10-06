@@ -1,4 +1,8 @@
 // Margin.
+.m-t-10 {
+    margin-top: 10px;
+}
+
 .m-t-15 {
     margin-top: 15px;
 }
@@ -31,6 +35,14 @@
     margin-top: 30rem;
 }
 
+.m-b-5rem {
+    margin-bottom: 5rem;
+}
+
+.m-b-10rem {
+    margin-bottom: 10rem;
+}
+
 .m-r-10 {
     margin-right: 10px;
 }
@@ -41,6 +53,18 @@
 
 .m-r-30 {
     margin-right: 30px;
+}
+
+.m-r-50 {
+    margin-right: 50px;
+}
+
+.m-r-5rem {
+    margin-right: 5rem;
+}
+
+.m-r-10p {
+    margin-right: 10%;
 }
 
 .m-l-10 {
@@ -56,6 +80,10 @@
 }
 
 // Padding
+.pd-t-5rem {
+    padding-top: 5rem;
+}
+
 .pd-t-10rem {
     padding-top: 10rem;
 }
@@ -72,6 +100,10 @@
     padding-bottom: 10rem;
 }
 
+.pd-b-15rem {
+    padding-bottom: 15rem;
+}
+
 .pd-b-20rem {
     padding-bottom: 20rem;
 }
@@ -83,6 +115,10 @@
 // Width
 .w-fit-content {
     width: fit-content;
+}
+
+.w-50p {
+    width: 50%;
 }
 
 // Height

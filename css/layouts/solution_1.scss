@@ -1,0 +1,287 @@
+#workforce-partner {
+    padding-bottom: 10px;
+    z-index: 1;
+
+    img {
+        z-index: -1;
+        bottom: 0px;
+        right: 0;
+    }
+
+    .workforce-container {
+        margin-bottom: 140px;
+        z-index: 1;
+        // background: linear-gradient(to right, white 45%, transparent 0%), url(./../../images/solutions_page/coffee_cup_bg.png) no-repeat bottom right;
+        // background-size: 100%;
+
+        .title {
+            font-weight: 600;
+            font-size: 82px;
+            line-height: 100px;
+            letter-spacing: -2px;
+            padding-right: 2rem;
+        }
+
+        .description {
+            max-width: 520px;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 30px;
+            opacity: 0.7;
+        }
+
+        input {
+            background: #EEEEEE;
+            border: 0.5px solid #000000;
+            box-sizing: border-box;
+            border-radius: 6px;
+            width: 330px;
+            height: 50px;
+
+            &::placeholder {
+                padding: 15px 20px;
+                background: #EEEEEE;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 1px;
+                color: #5B5B5B;
+            }
+        }
+
+        button {
+            width: 170px;
+            height: 50px;
+        }
+
+        .email-button {
+            border-bottom: 1px solid #000000;
+            max-width: 522px;
+        }
+    }
+}
+
+#use-cases-nlp {
+    .use-cases-text {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 45px;
+        letter-spacing: 0.3px;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.3px;
+    }
+
+    img {
+        border: 20px solid #252832;
+        box-sizing: border-box;
+    }
+
+    .description {
+        max-width: 490px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .accordion {
+        max-width: 520px;
+        margin-top: 60px;
+    }
+
+    .accordion-item {
+        margin-bottom: 20px;
+        border: 0;
+    }
+
+    .accordion-button {
+        height: 56px;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 24px;
+        color: #FFFFFF;
+        border-radius: 0;
+        background: #32384F;
+
+        & .collapsed {
+            background: #1E2230;
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &::before {
+            content: '';
+            background: #1E46F2;
+            border-radius: 10px;
+            width: 24px;
+            height: 24px;
+            margin-right: 20px;
+        }
+
+        &::after {
+            background: url(./../../images/solutions_page/accordian_button.png) no-repeat center;
+            transform: rotate(180deg);
+        }
+
+        &:not(.collapsed)::after {
+            transform: rotate(360deg);
+        }
+    }
+
+    .accordion-body {
+        background: #32384F;
+        padding: 1rem 4.25rem 30px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #A4ADCF;
+    }
+
+    .accordion-collapse {
+        border: 0;
+    }
+}
+
+#feature-offerings {
+    .title {
+        font-size: 20px;
+        line-height: 45px;
+        letter-spacing: 0.3px;
+    }
+
+    .sub-title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.3px;
+    }
+
+    .description {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .offering-container {
+        max-width: 275px;
+    }
+
+    .blue-circle {
+        background: #1E46F2;
+        border-radius: 20px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .offering-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    .offering-description {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #A4ADCF;
+    }
+}
+
+#enterprise-ready {
+    .e-r-container {
+        margin-top: 140px;
+    }
+
+    .text-container {
+        max-width: 575px;
+    }
+
+    .title {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 45px;
+        letter-spacing: 0.3px;
+    }
+
+    .sub-title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.3px;
+    }
+
+    .description {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+#sol-why-customers-choose {
+    .why-container {
+        background: #0A2184;
+        padding: 45px 55px 65px;
+
+        .title {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 90px;
+            letter-spacing: -2px;
+            text-transform: capitalize;
+        }
+
+        .description {
+            max-width: 850px;
+            margin-top: 10px;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 33px;
+        }
+
+        .email-button-container {
+            margin-top: 60px;
+
+            input {
+                background: #0A2184;
+                border: 2px solid #FFFFFF;
+                box-sizing: border-box;
+                border-radius: 6px;
+                width: 330px;
+                height: 50px;
+
+                &::placeholder {
+                    padding: 15px 20px;
+                    background: #0A2184;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 1px;
+                    color: #fff;
+                }
+            }
+
+            button {
+                width: 170px;
+                height: 50px;
+                background: #FFFFFF;
+                border-radius: 6px;
+                color: #1E46F2;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

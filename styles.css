@@ -11,6 +11,9 @@ body {
   max-width: 1440px;
   margin: 0 auto; }
 
+header nav {
+  padding: 0 !important; }
+
 a,
 a:visited,
 a:hover {
@@ -118,6 +121,9 @@ footer .menu-item {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; }
 
+.m-t-10 {
+  margin-top: 10px; }
+
 .m-t-15 {
   margin-top: 15px; }
 
@@ -142,6 +148,12 @@ footer .menu-item {
 .m-t-30rem {
   margin-top: 30rem; }
 
+.m-b-5rem {
+  margin-bottom: 5rem; }
+
+.m-b-10rem {
+  margin-bottom: 10rem; }
+
 .m-r-10 {
   margin-right: 10px; }
 
@@ -151,6 +163,15 @@ footer .menu-item {
 .m-r-30 {
   margin-right: 30px; }
 
+.m-r-50 {
+  margin-right: 50px; }
+
+.m-r-5rem {
+  margin-right: 5rem; }
+
+.m-r-10p {
+  margin-right: 10%; }
+
 .m-l-10 {
   margin-left: 10px; }
 
@@ -159,6 +180,9 @@ footer .menu-item {
 
 .m-l-3_2rem {
   margin-left: 3.2rem; }
+
+.pd-t-5rem {
+  padding-top: 5rem; }
 
 .pd-t-10rem {
   padding-top: 10rem; }
@@ -172,6 +196,9 @@ footer .menu-item {
 .pd-b-10rem {
   padding-bottom: 10rem; }
 
+.pd-b-15rem {
+  padding-bottom: 15rem; }
+
 .pd-b-20rem {
   padding-bottom: 20rem; }
 
@@ -180,6 +207,9 @@ footer .menu-item {
 
 .w-fit-content {
   width: fit-content; }
+
+.w-50p {
+  width: 50%; }
 
 .h-15px {
   height: 15px; }
@@ -446,3 +476,220 @@ footer .menu-item {
     letter-spacing: 0.5px; }
     #resources #resources-carousel .resource .learn-more img {
       width: 10px; }
+
+#workforce-partner {
+  padding-bottom: 10px;
+  z-index: 1; }
+  #workforce-partner img {
+    z-index: -1;
+    bottom: 0px;
+    right: 0; }
+  #workforce-partner .workforce-container {
+    margin-bottom: 140px;
+    z-index: 1; }
+    #workforce-partner .workforce-container .title {
+      font-weight: 600;
+      font-size: 82px;
+      line-height: 100px;
+      letter-spacing: -2px;
+      padding-right: 2rem; }
+    #workforce-partner .workforce-container .description {
+      max-width: 520px;
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 30px;
+      opacity: 0.7; }
+    #workforce-partner .workforce-container input {
+      background: #EEEEEE;
+      border: 0.5px solid #000000;
+      box-sizing: border-box;
+      border-radius: 6px;
+      width: 330px;
+      height: 50px; }
+      #workforce-partner .workforce-container input::placeholder {
+        padding: 15px 20px;
+        background: #EEEEEE;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1px;
+        color: #5B5B5B; }
+    #workforce-partner .workforce-container button {
+      width: 170px;
+      height: 50px; }
+    #workforce-partner .workforce-container .email-button {
+      border-bottom: 1px solid #000000;
+      max-width: 522px; }
+
+#use-cases-nlp .use-cases-text {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 45px;
+  letter-spacing: 0.3px; }
+
+#use-cases-nlp .title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.3px; }
+
+#use-cases-nlp img {
+  border: 20px solid #252832;
+  box-sizing: border-box; }
+
+#use-cases-nlp .description {
+  max-width: 490px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px; }
+
+#use-cases-nlp .accordion {
+  max-width: 520px;
+  margin-top: 60px; }
+
+#use-cases-nlp .accordion-item {
+  margin-bottom: 20px;
+  border: 0; }
+
+#use-cases-nlp .accordion-button {
+  height: 56px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 0;
+  background: #32384F; }
+  #use-cases-nlp .accordion-button .collapsed {
+    background: #1E2230; }
+  #use-cases-nlp .accordion-button:focus {
+    box-shadow: none; }
+  #use-cases-nlp .accordion-button::before {
+    content: '';
+    background: #1E46F2;
+    border-radius: 10px;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px; }
+  #use-cases-nlp .accordion-button::after {
+    background: url(./../../images/solutions_page/accordian_button.png) no-repeat center;
+    transform: rotate(180deg); }
+  #use-cases-nlp .accordion-button:not(.collapsed)::after {
+    transform: rotate(360deg); }
+
+#use-cases-nlp .accordion-body {
+  background: #32384F;
+  padding: 1rem 4.25rem 30px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #A4ADCF; }
+
+#use-cases-nlp .accordion-collapse {
+  border: 0; }
+
+#feature-offerings .title {
+  font-size: 20px;
+  line-height: 45px;
+  letter-spacing: 0.3px; }
+
+#feature-offerings .sub-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.3px; }
+
+#feature-offerings .description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px; }
+
+#feature-offerings .offering-container {
+  max-width: 275px; }
+
+#feature-offerings .blue-circle {
+  background: #1E46F2;
+  border-radius: 20px;
+  width: 35px;
+  height: 35px; }
+
+#feature-offerings .offering-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 20px; }
+
+#feature-offerings .offering-description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #A4ADCF; }
+
+#enterprise-ready .e-r-container {
+  margin-top: 140px; }
+
+#enterprise-ready .text-container {
+  max-width: 575px; }
+
+#enterprise-ready .title {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 45px;
+  letter-spacing: 0.3px; }
+
+#enterprise-ready .sub-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.3px; }
+
+#enterprise-ready .description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px; }
+
+#sol-why-customers-choose .why-container {
+  background: #0A2184;
+  padding: 45px 55px 65px; }
+  #sol-why-customers-choose .why-container .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    text-transform: capitalize; }
+  #sol-why-customers-choose .why-container .description {
+    max-width: 850px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px; }
+  #sol-why-customers-choose .why-container .email-button-container {
+    margin-top: 60px; }
+    #sol-why-customers-choose .why-container .email-button-container input {
+      background: #0A2184;
+      border: 2px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 6px;
+      width: 330px;
+      height: 50px; }
+      #sol-why-customers-choose .why-container .email-button-container input::placeholder {
+        padding: 15px 20px;
+        background: #0A2184;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1px;
+        color: #fff; }
+    #sol-why-customers-choose .why-container .email-button-container button {
+      width: 170px;
+      height: 50px;
+      background: #FFFFFF;
+      border-radius: 6px;
+      color: #1E46F2;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 1px; }
