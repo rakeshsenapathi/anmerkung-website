@@ -8,7 +8,9 @@ $(document).ready(function () {
         navigation: false,
         items: 2,
         pagination: false,
-        paginationNumbers: true
+        paginationNumbers: false,
+        // margin: 120,
+        slideSpeed: 750
     });
 
     $("#resources-carousel").owlCarousel({

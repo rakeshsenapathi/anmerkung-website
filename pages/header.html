@@ -5,10 +5,9 @@
                 <a class="company-name active" aria-current="page" href="./home.html">ANMERKUNG</a>
             </li>
         </ul>
-        <ul class="nav justify-content-end">
-            <!-- <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">solutions</a>
-            </li> -->
+
+        <!-- For Desktop -->
+        <ul class="nav justify-content-end header-menu">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
@@ -25,12 +24,68 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">use cases</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link m-0" href="#">resources</a>
-            </li>
+            </li> -->
             <li class="nav-item">
                 <a class="nav-link m-0" href="#">about us</a>
             </li>
         </ul>
+
+        <!-- For small devices -->
+        <div class="header-menu-mob">
+            <img class="nav-icon m-b-5px" src="./../images/navbar-icons/burger_icon.png">
+        </div>
+
+        <!-- Navigation menu for devices less than medium -->
+        <div id="mobile-navigation-sidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn mobile-nav-close">&times;</a>
+            <a id="mob-nav-solutions-header" class="d-flex flex-row align-content-center justify-content-between">
+                <div>Solutions</div>
+                <div><img src="/images/navbar-icons/chevron_right_black_24dp.svg"></div>
+            </a>
+            <a id="#" class="d-flex flex-row align-content-center justify-content-between">
+                <div>Use Cases</div>
+                <div><img src="/images/navbar-icons/chevron_right_black_24dp.svg"></div>
+            </a>
+            <!-- <a id="#" class="d-flex flex-row align-content-center justify-content-between">
+                <div>Resources</div>
+                <div><img src="/images/navbar-icons/chevron_right_black_24dp.svg"></div>
+            </a> -->
+            <a id="#" class="d-flex flex-row align-content-center justify-content-between">
+                <div>About US</div>
+                <div><img src="/images/navbar-icons/chevron_right_black_24dp.svg"></div>
+            </a>
+        </div>
+
+        <!-- Sidenav for Solutions -->
+        <div id="solutions-sidenav" class="sidenav">
+            <div class="d-flex flex-row align-content-center align-items-center justify-content-between closbtn-div">
+                <!-- <div class="color-black pd-l-15">SOLUTIONS</div> -->
+                <a href="javascript:void(0)" class="closebtn mobile-nav-solutions-close">&times;</a>
+            </div>
+            <a href="./solution_1.html" class="d-flex flex-row align-content-center justify-content-between">
+                <div>Text Annotation</div>
+                <div><img src="/images/navbar-icons/chevron_right_black_24dp.svg"></div>
+            </a>
+            <a href="./solution_2.html" class="d-flex flex-row align-content-center justify-content-between">
+                <div>Image Annotation</div>
+                <div><img src="/images/navbar-icons/chevron_right_black_24dp.svg"></div>
+            </a>
+            <a href="./solution_3.html" class="d-flex flex-row align-content-center justify-content-between">
+                <div>Video Annotation</div>
+                <div><img src="/images/navbar-icons/chevron_right_black_24dp.svg"></div>
+            </a>
+            <a href="./solution_4.html" class="d-flex flex-row align-content-center justify-content-between">
+                <div>LIDAR + RADAR</div>
+                <div><img src="/images/navbar-icons/chevron_right_black_24dp.svg"></div>
+            </a>
+            <a href="./solution_5.html" class="d-flex flex-row align-content-center justify-content-between">
+                <div>Maps Annotation</div>
+                <div><img src="/images/navbar-icons/chevron_right_black_24dp.svg"></div>
+            </a>
+        </div>
     </nav>
 </header>
+
+<script src="../scripts/header.js"></script>

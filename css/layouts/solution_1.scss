@@ -1,3 +1,15 @@
+.solution-header {
+
+    .nav-icon {
+        filter: invert(1);
+    }
+
+    .sidenav {
+        right: 190px;
+    }
+
+}
+
 #workforce-partner {
     padding-bottom: 10px;
     z-index: 1;
@@ -59,6 +71,7 @@
         .email-button {
             border-bottom: 1px solid #000000;
             max-width: 522px;
+            padding-left: 0 !important;
         }
     }
 }
@@ -108,6 +121,7 @@
         color: #FFFFFF;
         border-radius: 0;
         background: #32384F;
+        padding-left: 2.5rem;
 
         & .collapsed {
             background: #1E2230;
@@ -117,18 +131,19 @@
             box-shadow: none;
         }
 
-        &::before {
-            content: '';
-            background: #1E46F2;
-            border-radius: 10px;
-            width: 24px;
-            height: 24px;
-            margin-right: 20px;
-        }
+        // &::before {
+        //     content: '';
+        //     // background: #1E46F2;
+        //     border-radius: 10px;
+        //     width: 24px;
+        //     height: 24px;
+        //     // margin-right: 20px;
+        // }
 
         &::after {
             background: url(./../../images/solutions_page/accordian_button.png) no-repeat center;
             transform: rotate(180deg);
+            transition: 0.5s;
         }
 
         &:not(.collapsed)::after {
@@ -138,7 +153,7 @@
 
     .accordion-body {
         background: #32384F;
-        padding: 1rem 4.25rem 30px;
+        padding: 1rem 2.5rem 30px;
         font-weight: normal;
         font-size: 14px;
         line-height: 20px;

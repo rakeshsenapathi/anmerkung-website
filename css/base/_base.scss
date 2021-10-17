@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
 body {
     overflow-y: auto;
     overflow-x: hidden;
@@ -12,6 +17,27 @@ body {
 .row {
     max-width: 1440px;
     margin: 0 auto;
+
+    @include screen-mob {
+        padding: 0 4%;
+        max-width: 100vw;
+    }
+}
+
+.header-menu {
+    @include screen-mob {
+        display: none;
+    }
+
+    @include screen-tab-desk {
+        display: inherit;
+    }
+}
+
+.header-menu-mob {
+    @include screen-tab-desk {
+        display: none;
+    }
 }
 
 header nav {
@@ -30,6 +56,14 @@ a:hover {
     background: linear-gradient(90.48deg, #6A81E6 0.41%, #4765E4 37.4%, #2F52E9 70.05%, #1537C6 110.28%);
     border-radius: 6px;
     border: 0;
+
+    @include screen-mob {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        border-radius: 4px;
+    }
 }
 
 .bg-cover-image {
@@ -37,7 +71,8 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 110vh;
+    // height: 110vh;
+    padding-bottom: 100px;
 }
 
 
@@ -48,6 +83,12 @@ button {
 
 button {
     outline: none;
+}
+
+#header {
+    @include screen-mob {
+        padding-top: 60px;
+    }
 }
 
 header {
@@ -79,6 +120,19 @@ header {
 }
 
 footer {
+
+    .footer-container-desk {
+        @include screen-mob {
+            display: none !important;
+        }
+    }
+
+    .footer-container-mob {
+        @include screen-tab-desk {
+            display: none !important;
+        }
+    }
+
     .company-name {
         font-weight: 600;
         font-size: 26px;
@@ -92,6 +146,10 @@ footer {
         font-size: 14px;
         line-height: 21px;
         color: #798084;
+
+        @include screen-mob {
+            margin-top: 3rem !important;
+        }
     }
 
     input {
@@ -124,7 +182,7 @@ footer {
         font-weight: 600;
         font-size: 20px;
         line-height: 30px;
-        color: #36454C;
+        color: #4765E4;
     }
 
     .menu-item {
@@ -134,4 +192,45 @@ footer {
         color: #798084;
         margin-top: 15px;
     }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    box-shadow: -100px 0px 130px -1px rgba(0, 0, 0, 0.67);
+    -webkit-box-shadow: -100px 0px 130px -1px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: -100px 0px 130px -1px rgba(0, 0, 0, 0.67);
+
+    @include screen-tab-desk {
+        display: none;
+    }
+}
+
+.sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    transition: 0.3s;
+}
+
+// .sidenav a:hover {
+//     color: #f1f1f1;
+// }
+
+.sidenav .closebtn {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+    text-align: end;
+    font-size: 36px;
+    color: #000 !important;
 }

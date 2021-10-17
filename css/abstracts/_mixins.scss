@@ -1,0 +1,11 @@
+@mixin screen-mob {
+    @media (min-width: 300px) and (max-width: 1309px) {
+        @content;
+    }
+}
+
+@mixin screen-tab-desk {
+    @media (min-width: 1310px) {
+        @content;
+    }
+}
