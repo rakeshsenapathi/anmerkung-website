@@ -306,6 +306,11 @@
     }
 
     .offerings-hero-img {
+        img {
+            box-shadow: 0px 0px 164px 30px rgba(31, 62, 200, 0.4);
+            border-radius: 8px;
+        }
+
         @include screen-mob {
             display: none !important;
         }
@@ -318,6 +323,10 @@
 
         margin-top: 100px;
         margin-bottom: 55px;
+
+        img {
+            width: 100%;
+        }
     }
 
     .title {

@@ -219,6 +219,9 @@ footer .menu-item {
 .m-t-5rem {
   margin-top: 5rem; }
 
+.m-t-7rem {
+  margin-top: 7rem; }
+
 .m-t-10rem {
   margin-top: 10rem; }
 
@@ -1084,6 +1087,10 @@ footer .menu-item {
   #feature-offerings {
     padding-bottom: 5rem !important; } }
 
+#feature-offerings .offerings-hero-img img {
+  box-shadow: 0px 0px 164px 30px rgba(31, 62, 200, 0.4);
+  border-radius: 8px; }
+
 @media (min-width: 300px) and (max-width: 1309px) {
   #feature-offerings .offerings-hero-img {
     display: none !important; } }
@@ -1094,6 +1101,8 @@ footer .menu-item {
   @media (min-width: 1310px) {
     #feature-offerings .offering-hero-mob {
       display: none !important; } }
+  #feature-offerings .offering-hero-mob img {
+    width: 100%; }
 
 #feature-offerings .title {
   font-size: 20px;

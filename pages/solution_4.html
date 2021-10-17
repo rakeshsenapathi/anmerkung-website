@@ -45,18 +45,19 @@
 
 <body>
     <!-- Header -->
-    <section id="header"></section>
+    <section id="header" class="solution-header"></section>
 
     <!-- Workforce partner -->
     <section id="workforce-partner" class="bg-white position-relative m-t-10rem m-b-10rem">
-        <img class="position-absolute" src="./../images/solutions_page/coffee_cup_bg.png">
+        <img class="position-absolute hero-img-desk" src="./../images/solutions_page/text_annotation/hero.png">
         <div class="row m-t-5rem m-b-5rem d-flex flex-column workforce-container p-0 color-black">
             <div class="title p-0">
-                Detection, Tracking and Segmentation of advanced sensor data including Lidar and Radar.
+                The sophisticated workforce partner for text annotations.
             </div>
+            <img class="hero-img-mob" src="./../images/solutions_page/text_annotation/hero.png">
             <div class="description m-t-5rem p-0">
-                Anmerkung’s extensive experience in the automotive world has given immense exposure to advanced
-                annotations capabilities including that of annotating data that’s being generated from 3D sensors.
+                Anmerkung is the sophisticated workforce partner for text annotation, extracting information and gaining
+                valuable insights from a vast corpus of text-based data.
             </div>
             <div class="d-flex flex-row m-t-1rem pd-b-3rem email-button">
                 <input class="w-fit-content color-black m-r-30" type="email" placeholder="Enter your work email">
@@ -70,7 +71,7 @@
         <div class="row d-flex flex-column">
             <div class="section-title-gradient use-cases-text">Usecases</div>
             <div class="d-flex flex-row">
-                <div class="col-6 m-r-30">
+                <div class="col-6 m-r-30 usecase-accordian-container">
                     <div class="title">Natural Language Processing</div>
                     <div class="description m-t-10">
                         Anmerkung enables NLP researchers to quickly extract value from text by providing a platform
@@ -78,7 +79,7 @@
                         text-based data.
                     </div>
                     <div class="accordion accordion-flush" id="usecases-accordian">
-                        <div class="accordion-item">
+                        <div class="accordion-item" id="entity-annotation">
                             <div class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -105,32 +106,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <div class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                    <div>
-                                        <div>Entity Linking</div>
-                                    </div>
-                                </button>
-                            </div>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#usecases-accordian">
-                                <div class="accordion-body">
-                                    <p>
-                                        Entity Annotation is learning to spot particular parts of natural language text
-                                        that indicate the presence of things like organizations, people, locations,
-                                        events, and products.
-                                    </p>
-                                    <p>
-                                        It’s an essential first step to further NLP tasks, such as document
-                                        classification or sentiment analysis, by teaching NLP models what to look for in
-                                        text.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item" id="text-classification">
                             <div class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
@@ -143,21 +119,14 @@
                                 data-bs-parent="#usecases-accordian">
                                 <div class="accordion-body">
                                     <p>
-                                        Entity Annotation is learning to spot particular parts of natural language text
-                                        that
-                                        indicate the presence of things like organizations, people, locations, events,
-                                        and
-                                        products.
-                                    </p>
-                                    <p>
-                                        It’s an essential first step to further NLP tasks, such as document
-                                        classification
-                                        or sentiment analysis, by teaching NLP models what to look for in text.
+                                        Anmerkung has the fastest, most reliable workforce skilled in using multiple
+                                        tools to classify and label text that enterprises use to build models for
+                                        scalable, customizable, accurate and rapid analysis of millions of documents.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item" id="sentiment-analysis">
                             <div class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
@@ -170,21 +139,34 @@
                                 data-bs-parent="#usecases-accordian">
                                 <div class="accordion-body">
                                     <p>
-                                        Entity Annotation is learning to spot particular parts of natural language text
-                                        that
-                                        indicate the presence of things like organizations, people, locations, events,
-                                        and
-                                        products.
-                                    </p>
-                                    <p>
-                                        It’s an essential first step to further NLP tasks, such as document
-                                        classification
-                                        or sentiment analysis, by teaching NLP models what to look for in text.
+                                        Sentiment inherent within a collection of text cannot be easily deciphered by
+                                        machines. This requires a certain dataset of annotated data that analyses and
+                                        labels emotion, opinion and sentiment within a body of text.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item" id="linguistic-annotation">
+                            <div class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    <div>
+                                        <div>Linguistic Annotation</div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#usecases-accordian">
+                                <div class="accordion-body">
+                                    <p>
+                                        NLP entity linking is the process of associating an entity in a text with its
+                                        corresponding URI, adding value and context to the entities in the text and
+                                        reducing ambiguity.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="accordion-item">
                             <div class="accordion-header" id="headingFive">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
@@ -197,24 +179,54 @@
                                 data-bs-parent="#usecases-accordian">
                                 <div class="accordion-body">
                                     <p>
-                                        Entity Annotation is learning to spot particular parts of natural language text
-                                        that
-                                        indicate the presence of things like organizations, people, locations, events,
-                                        and
-                                        products.
-                                    </p>
-                                    <p>
-                                        It’s an essential first step to further NLP tasks, such as document
-                                        classification
-                                        or sentiment analysis, by teaching NLP models what to look for in text.
+                                        Linguistic annotation offers an excellent way for researchers to harness
+                                        language data to evaluate better, understand, and predict language patterns. We
+                                        help NLP researchers mark or label grammatical, semantic, or phonetic elements
+                                        in the text or audio data.
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-6">
-                    <img src="./../images/solutions_page/NLP_Image.png">
+                <div class="col-6" id="use-case-image">
+                    <img id="use-case-hero-img" alt="use_case_hero"
+                        src="./../images/solutions_page/text_annotation/usecases/Entity Annotation.png">
+                </div>
+            </div>
+            <!-- Use Cases for Mobile -->
+            <div class="use-case-mob">
+                <div class="d-flex flex-column use-case">
+                    <img src="./../images/solutions_page/text_annotation/usecases/Entity Annotation.png">
+                    <div class="title">Entity Annotation</div>
+                    <div class="description m-t-10">
+                        Neque, a orci ut tincidunt. Eros, facilisi vulputate eu donec pharetra.
+                        Tempus sit lectus pharetra aliquet. Tortor aenean duis leo in.
+                    </div>
+                </div>
+                <div class="d-flex flex-column use-case">
+                    <img src="./../images/solutions_page/text_annotation/usecases/Text Classification.png">
+                    <div class="title">Text Classification</div>
+                    <div class="description m-t-10">
+                        Neque, a orci ut tincidunt. Eros, facilisi vulputate eu donec pharetra.
+                        Tempus sit lectus pharetra aliquet. Tortor aenean duis leo in.
+                    </div>
+                </div>
+                <div class="d-flex flex-column use-case">
+                    <img src="./../images/solutions_page/text_annotation/usecases/Sentiment Analysis.png">
+                    <div class="title">Sentiment Analysis</div>
+                    <div class="description m-t-10">
+                        Neque, a orci ut tincidunt. Eros, facilisi vulputate eu donec pharetra.
+                        Tempus sit lectus pharetra aliquet. Tortor aenean duis leo in.
+                    </div>
+                </div>
+                <div class="d-flex flex-column use-case">
+                    <img src="./../images/solutions_page/text_annotation/usecases/Linguistic Annotation.png">
+                    <div class="title">Linguistic Annotation</div>
+                    <div class="description m-t-10">
+                        Neque, a orci ut tincidunt. Eros, facilisi vulputate eu donec pharetra.
+                        Tempus sit lectus pharetra aliquet. Tortor aenean duis leo in.
+                    </div>
                 </div>
             </div>
         </div>
@@ -228,8 +240,8 @@
     <section id="feature-offerings" class="bg-black color-white pd-t-10rem pd-b-10rem">
         <div class="row d-flex flex-column">
             <div class="d-flex flex-row">
-                <div class="m-r-10p">
-                    <img src="./../images/solutions_page/feature_offerings_computer_vision.png"
+                <div class="m-r-10p offerings-hero-img">
+                    <img src="./../images/solutions_page/text_annotation/Feature_Offering_heroi_desk.png"
                         alt="feature_offerings_img">
                 </div>
                 <div>
@@ -245,9 +257,8 @@
                             </div>
                         </div>
                         <!-- Offerings Row 1 -->
-                        <div class="m-t-5rem d-flex flex-row justify-content-between">
+                        <div class="m-t-5rem d-flex flex-row justify-content-between offering-row1">
                             <div class="d-flex flex-column offering-container m-r-50">
-                                <div class="blue-circle"></div>
                                 <div class="offering-title">Highest Quality Text Data</div>
                                 <div class="offering-description m-t-15">
                                     While platforms are great to test the quality of text annotations, Anmerkung’s
@@ -255,8 +266,10 @@
                                     trained annotator workforce to improve leaps and bounds through every iteration.
                                 </div>
                             </div>
+                            <div class="offering-hero-mob">
+                                <img src="./../images/solutions_page/text_annotation/Feature_Offering_heroi_mob.png">
+                            </div>
                             <div class="d-flex flex-column offering-container">
-                                <div class="blue-circle"></div>
                                 <div class="offering-title">Continuously Improving Productivity</div>
                                 <div class="offering-description m-t-15">
                                     To continuously improve workforce productivity, Anmerkung focuses on rapid feedback
@@ -266,8 +279,7 @@
                             </div>
                         </div>
                         <div class="m-t-30 d-flex flex-row">
-                            <div class="d-flex flex-column m-r-50">
-                                <div class="blue-circle"></div>
+                            <div class="d-flex flex-column m-r-50 offering-row2">
                                 <div class="offering-title">Multi-Lingual Support</div>
                                 <div class="offering-description m-t-15">
                                     Global. Local. Smart. Anmerkung provides professional-grade human labellers for
