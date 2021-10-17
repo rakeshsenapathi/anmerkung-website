@@ -477,6 +477,144 @@ footer .menu-item {
     #resources #resources-carousel .resource .learn-more img {
       width: 10px; }
 
+#oval-shape-blend {
+  height: 800px;
+  position: relative; }
+  #oval-shape-blend-1 {
+    position: relative;
+    top: 20%;
+    bottom: 20%;
+    background-size: 105%;
+    height: 525px;
+    margin-left: -11.3rem;
+    width: 122VW;
+    display: flex;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #E8E8E8;
+    color: transparent; }
+
+#img-container--1 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 19%;
+  border: 3px solid #E8E8E8;
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  top: 1%;
+  background: url(../../images/oval_shape_resources/icon1.svg) no-repeat 50% 50%; }
+  #img-container--1:hover {
+    box-shadow: 0px 0px 30px 1px rgba(171, 185, 186, 0.5);
+    backdrop-filter: blur(3px);
+    height: 90px;
+    width: 90px;
+    top: 0%;
+    background: url(../../images/oval_shape_resources/icon1-light.svg) no-repeat 50% 50%;
+    background-color: #4765E4;
+    transition: all ease-in-out .3s; }
+
+#img-container--2 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 35%;
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #E8E8E8;
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  top: -6%;
+  background: url(../../images/oval_shape_resources/icon2.svg) no-repeat 50% 50%; }
+  #img-container--2:hover {
+    background: #4765E4;
+    box-shadow: 0px 0px 30px 1px rgba(171, 185, 186, 0.5);
+    backdrop-filter: blur(3px);
+    height: 90px;
+    width: 90px;
+    top: -5%;
+    background: url(../../images/oval_shape_resources/icon2-light.svg) no-repeat 50% 50%;
+    background-color: #4765E4;
+    transition: all ease-in-out .3s; }
+
+#img-container--3 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #E8E8E8;
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  top: -8%;
+  background: url(../../images/oval_shape_resources/icon3.svg) no-repeat 50% 50%; }
+  #img-container--3:hover {
+    background: #4765E4;
+    box-shadow: 0px 0px 30px 1px rgba(171, 185, 186, 0.5);
+    backdrop-filter: blur(3px);
+    height: 90px;
+    width: 90px;
+    top: -7%;
+    background: url(../../images/oval_shape_resources/icon3-light.svg) no-repeat 50% 50%;
+    background-color: #4765E4;
+    transition: all ease-in-out .3s; }
+
+#img-container--4 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 65%;
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #E8E8E8;
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  top: -5%;
+  background: url(../../images/oval_shape_resources/icon4.svg) no-repeat 50% 50%; }
+  #img-container--4:hover {
+    background: #4765E4;
+    box-shadow: 0px 0px 30px 1px rgba(171, 185, 186, 0.5);
+    backdrop-filter: blur(3px);
+    height: 90px;
+    width: 90px;
+    top: -6%;
+    background: url(../../images/oval_shape_resources/icon4-light.svg) no-repeat 50% 50%;
+    background-color: #4765E4;
+    transition: all ease-in-out .3s; }
+
+#img-container--5 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 79%;
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #E8E8E8;
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  top: 3%;
+  background: url(../../images/oval_shape_resources/icon5.svg) no-repeat 50% 50%; }
+  #img-container--5:hover {
+    background: #4765E4;
+    box-shadow: 0px 0px 30px 1px rgba(171, 185, 186, 0.5);
+    backdrop-filter: blur(3px);
+    height: 90px;
+    width: 90px;
+    top: 4%;
+    background: url(../../images/oval_shape_resources/icon5-light.svg) no-repeat 50% 50%;
+    background-color: #4765E4;
+    transition: all ease-in-out .3s; }
+
+#oval-shape-content {
+  position: absolute;
+  left: 12%;
+  top: 41%;
+  width: 20%; }
+  #oval-shape-content--title {
+    font-size: 34px;
+    font-weight: 600; }
+  #oval-shape-content--description {
+    font-size: 22px;
+    font-weight: 500;
+    height: 20%; }
+
 #workforce-partner {
   padding-bottom: 10px;
   z-index: 1; }
