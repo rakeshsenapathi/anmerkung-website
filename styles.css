@@ -754,7 +754,7 @@ footer .menu-item {
   border-radius: 50%;
   top: 1%;
   background: url(../../images/oval_shape_resources/icon1.svg) no-repeat 50% 50%; }
-  #img-container--1:hover {
+  #img-container--1:hover, #img-container--1:active {
     box-shadow: 0px 0px 30px 1px rgba(171, 185, 186, 0.5);
     backdrop-filter: blur(3px);
     height: 90px;
