@@ -97,6 +97,10 @@ header {
   footer .footer-container-mob {
     display: none !important; } }
 
+footer .address {
+  margin-top: 15px;
+  max-width: 33%; }
+
 footer .company-name {
   font-weight: 600;
   font-size: 26px;
@@ -642,9 +646,11 @@ footer .menu-item {
       line-height: 24px;
       opacity: 0.7; } }
 
-@media (min-width: 300px) and (max-width: 1309px) {
-  #use-cases .build-button-desk {
-    display: none !important; } }
+#use-cases .build-button-desk {
+  width: 404px; }
+  @media (min-width: 300px) and (max-width: 1309px) {
+    #use-cases .build-button-desk {
+      display: none !important; } }
 
 #use-cases .buttons-container {
   margin-right: calc(9%); }
@@ -1043,6 +1049,9 @@ footer .menu-item {
   font-size: 16px;
   line-height: 24px;
   opacity: 0.7; }
+  @media (min-width: 300px) and (max-width: 1309px) {
+    #use-cases-nlp .description {
+      max-width: 100% !important; } }
 
 #use-cases-nlp .accordion {
   max-width: 520px;
@@ -1053,7 +1062,7 @@ footer .menu-item {
   border: 0; }
 
 #use-cases-nlp .accordion-button {
-  height: 56px;
+  min-height: 56px;
   font-weight: 600;
   font-size: 22px;
   line-height: 24px;
@@ -1102,7 +1111,10 @@ footer .menu-item {
     #feature-offerings .offering-hero-mob {
       display: none !important; } }
   #feature-offerings .offering-hero-mob img {
-    width: 100%; }
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 6px; }
 
 #feature-offerings .title {
   font-size: 20px;
