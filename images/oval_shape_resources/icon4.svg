@@ -1,0 +1,26 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.5 22L5 20.625V17.5" fill="black"/>
+<path d="M7.5 22L5 20.625V17.5" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 12.5V9.375L7.5 8" fill="black"/>
+<path d="M5 12.5V9.375L7.5 8" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.5 5.125L15 3.75L17.5 5.125" fill="black"/>
+<path d="M12.5 5.125L15 3.75L17.5 5.125" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.5 8L25 9.375V12.5" fill="black"/>
+<path d="M22.5 8L25 9.375V12.5" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25 17.5V20.625L22.5 22.025" fill="black"/>
+<path d="M25 17.5V20.625L22.5 22.025" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.5 24.875L15 26.25L12.5 24.875" fill="black"/>
+<path d="M17.5 24.875L15 26.25L12.5 24.875" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 15L17.5 13.625L15 15Z" fill="black"/>
+<path d="M15 15L17.5 13.625" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.5 10.75L25 9.375L22.5 10.75Z" fill="black"/>
+<path d="M22.5 10.75L25 9.375" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 15V18.125V15Z" fill="black"/>
+<path d="M15 15V18.125" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 23.125V26.25V23.125Z" fill="black"/>
+<path d="M15 23.125V26.25" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 15.0001L12.5 13.6001L15 15.0001Z" fill="black"/>
+<path d="M15 15.0001L12.5 13.6001" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.5 10.75L5 9.375L7.5 10.75Z" fill="black"/>
+<path d="M7.5 10.75L5 9.375" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
