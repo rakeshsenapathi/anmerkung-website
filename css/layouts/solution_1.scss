@@ -246,17 +246,27 @@
         background: #0A2184;
         padding: 45px 55px 65px;
 
+        @include screen-mob {
+            padding: 5rem 4%;
+        }
+
         .title {
             font-weight: 600;
             font-size: 48px;
             line-height: 90px;
             letter-spacing: -2px;
             text-transform: capitalize;
+
+            @include screen-mob {
+                font-size: 28px;
+                line-height: 42px;
+                letter-spacing: -2px;
+            }
         }
 
         .description {
             max-width: 850px;
-            margin-top: 10px;
+            margin-top: 15px;
             font-weight: normal;
             font-size: 22px;
             line-height: 33px;
@@ -265,6 +275,10 @@
         .email-button-container {
             margin-top: 60px;
 
+            @include screen-mob {
+                margin-top: 30px;
+            }
+
             input {
                 background: #0A2184;
                 border: 2px solid #FFFFFF;
@@ -272,6 +286,11 @@
                 border-radius: 6px;
                 width: 330px;
                 height: 50px;
+
+                @include screen-mob {
+                    height: 36.85px;
+                    width: 190px;
+                }
 
                 &::placeholder {
                     padding: 15px 20px;
@@ -283,6 +302,12 @@
                     align-items: center;
                     letter-spacing: 1px;
                     color: #fff;
+
+                    @include screen-mob {
+                        font-size: 14px;
+                        letter-spacing: 0.3px;
+                        padding: 7px 10px;
+                    }
                 }
             }
 
@@ -296,6 +321,13 @@
                 font-size: 18px;
                 line-height: 22px;
                 letter-spacing: 1px;
+
+                @include screen-mob {
+                    width: 120px;
+                    height: 36.85px;
+                    border-radius: 4px;
+                    font-size: 14px;
+                }
             }
         }
     }
