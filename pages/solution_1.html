@@ -67,18 +67,18 @@
     </section>
 
     <!-- Use Cases - Natural Language Processing -->
-    <section id="use-cases-nlp" class="d-none pd-t-10rem pd-b-15rem bg-black color-white">
+    <section id="use-cases-nlp" class="pd-t-10rem pd-b-15rem bg-black color-white">
         <div class="row d-flex flex-column">
             <div class="section-title-gradient use-cases-text">Usecases</div>
             <div class="d-flex flex-row">
-                <div class="col-6 m-r-30">
+                <div class="col-6 m-r-30 usecase-accordian-container">
                     <div class="title">Natural Language Processing</div>
                     <div class="description m-t-10">
                         Anmerkung enables NLP researchers to quickly extract value from text by providing a platform
                         agnostic, trained workforce partner for unbiased, high quality annotations on vast amounts of
                         text-based data.
                     </div>
-                    <div class="accordion accordion-flush" id="nlp-usecases-accordian">
+                    <div class="accordion accordion-flush" id="usecases-accordian">
                         <div class="accordion-item">
                             <div class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -89,7 +89,7 @@
                                 </button>
                             </div>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#nlp-usecases-accordian">
+                                data-bs-parent="#usecases-accordian">
                                 <div class="accordion-body">
                                     <p>
                                         Entity Annotation is learning to spot particular parts of natural language text
@@ -116,7 +116,7 @@
                                 </button>
                             </div>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#nlp-usecases-accordian">
+                                data-bs-parent="#usecases-accordian">
                                 <div class="accordion-body">
                                     <p>
                                         NLP entity linking is the process of associating an entity in a text with its
@@ -136,7 +136,7 @@
                                 </button>
                             </div>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#nlp-usecases-accordian">
+                                data-bs-parent="#usecases-accordian">
                                 <div class="accordion-body">
                                     <p>
                                         Anmerkung has the fastest, most reliable workforce skilled in using multiple
@@ -156,7 +156,7 @@
                                 </button>
                             </div>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#nlp-usecases-accordian">
+                                data-bs-parent="#usecases-accordian">
                                 <div class="accordion-body">
                                     <p>
                                         Sentiment inherent within a collection of text cannot be easily deciphered by
@@ -176,7 +176,7 @@
                                 </button>
                             </div>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#nlp-usecases-accordian">
+                                data-bs-parent="#usecases-accordian">
                                 <div class="accordion-body">
                                     <p>
                                         Linguistic annotation offers an excellent way for researchers to harness
@@ -189,8 +189,43 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6" id="use-case-image">
                     <img src="./../images/solutions_page/NLP_Image.png">
+                </div>
+            </div>
+            <!-- Use Cases for Mobile -->
+            <div class="use-case-mob">
+                <div class="d-flex flex-column use-case">
+                    <img src="./../images/solutions_page/text_annotation/usecases/Entity Annotation.png">
+                    <div class="title">Entity Annotation</div>
+                    <div class="description m-t-10">
+                        Neque, a orci ut tincidunt. Eros, facilisi vulputate eu donec pharetra.
+                        Tempus sit lectus pharetra aliquet. Tortor aenean duis leo in.
+                    </div>
+                </div>
+                <div class="d-flex flex-column use-case">
+                    <img src="./../images/solutions_page/text_annotation/usecases/Text Classification.png">
+                    <div class="title">Text Classification</div>
+                    <div class="description m-t-10">
+                        Neque, a orci ut tincidunt. Eros, facilisi vulputate eu donec pharetra.
+                        Tempus sit lectus pharetra aliquet. Tortor aenean duis leo in.
+                    </div>
+                </div>
+                <div class="d-flex flex-column use-case">
+                    <img src="./../images/solutions_page/text_annotation/usecases/Sentiment Analysis.png">
+                    <div class="title">Sentiment Analysis</div>
+                    <div class="description m-t-10">
+                        Neque, a orci ut tincidunt. Eros, facilisi vulputate eu donec pharetra.
+                        Tempus sit lectus pharetra aliquet. Tortor aenean duis leo in.
+                    </div>
+                </div>
+                <div class="d-flex flex-column use-case">
+                    <img src="./../images/solutions_page/text_annotation/usecases/Linguistic Annotation.png">
+                    <div class="title">Linguistic Annotation</div>
+                    <div class="description m-t-10">
+                        Neque, a orci ut tincidunt. Eros, facilisi vulputate eu donec pharetra.
+                        Tempus sit lectus pharetra aliquet. Tortor aenean duis leo in.
+                    </div>
                 </div>
             </div>
         </div>
@@ -201,11 +236,11 @@
     <div id="testimonial-carousel-component"></div>
 
     <!-- Feature Offerings - Computer Vision -->
-    <section id="feature-offerings" class="d-none bg-black color-white pd-t-10rem pd-b-10rem">
+    <section id="feature-offerings" class="bg-black color-white pd-t-10rem pd-b-10rem">
         <div class="row d-flex flex-column">
             <div class="d-flex flex-row">
-                <div class="m-r-10p">
-                    <img src="./../images/solutions_page/feature_offerings_computer_vision.png"
+                <div class="m-r-10p offerings-hero-img">
+                    <img src="./../images/solutions_page/text_annotation/Feature_Offering_heroi_desk.png"
                         alt="feature_offerings_img">
                 </div>
                 <div>
@@ -221,9 +256,8 @@
                             </div>
                         </div>
                         <!-- Offerings Row 1 -->
-                        <div class="m-t-5rem d-flex flex-row justify-content-between">
+                        <div class="m-t-5rem d-flex flex-row justify-content-between offering-row1">
                             <div class="d-flex flex-column offering-container m-r-50">
-                                <div class="blue-circle"></div>
                                 <div class="offering-title">Highest Quality Text Data</div>
                                 <div class="offering-description m-t-15">
                                     While platforms are great to test the quality of text annotations, Anmerkung’s
@@ -231,8 +265,10 @@
                                     trained annotator workforce to improve leaps and bounds through every iteration.
                                 </div>
                             </div>
+                            <div class="offering-hero-mob">
+                                <img src="./../images/solutions_page/text_annotation/Feature_Offering_heroi_mob.png">
+                            </div>
                             <div class="d-flex flex-column offering-container">
-                                <div class="blue-circle"></div>
                                 <div class="offering-title">Continuously Improving Productivity</div>
                                 <div class="offering-description m-t-15">
                                     To continuously improve workforce productivity, Anmerkung focuses on rapid feedback
@@ -242,8 +278,7 @@
                             </div>
                         </div>
                         <div class="m-t-30 d-flex flex-row">
-                            <div class="d-flex flex-column m-r-50">
-                                <div class="blue-circle"></div>
+                            <div class="d-flex flex-column m-r-50 offering-row2">
                                 <div class="offering-title">Multi-Lingual Support</div>
                                 <div class="offering-description m-t-15">
                                     Global. Local. Smart. Anmerkung provides professional-grade human labellers for

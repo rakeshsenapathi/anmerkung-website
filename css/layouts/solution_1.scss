@@ -4,6 +4,10 @@
         filter: invert(1);
     }
 
+    .company-name {
+        font-weight: 600;
+    }
+
     // .sidenav {
     //     right: 190px;
     // }
@@ -16,7 +20,7 @@
 
     @include screen-mob {
         margin-top: 3rem !important;
-        margin-bottom: 3rem !important;
+        margin-bottom: 0 !important;
     }
 
     .hero-img-desk {
@@ -46,6 +50,7 @@
         @include screen-mob {
             padding: 0 4% !important;
             text-align: center;
+            margin-bottom: 60px;
         }
 
         .title {
@@ -148,6 +153,55 @@
 }
 
 #use-cases-nlp {
+
+    @include screen-mob {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    #usecases-accordian,
+    #use-case-image {
+        @include screen-mob {
+            display: none !important;
+        }
+    }
+
+    .usecase-accordian-container {
+        @include screen-mob {
+            width: 100% !important;
+        }
+    }
+
+    .use-case-mob {
+        @include screen-tab-desk {
+            display: none !important;
+        }
+
+
+        .use-case {
+            margin-top: 85px !important;
+
+            &:last-of-type {
+                margin-bottom: 5rem;
+            }
+
+            .title {
+                margin-top: 25px;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+                color: #4765E4;
+            }
+
+            .description {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                opacity: 1;
+            }
+        }
+    }
+
     .use-cases-text {
         font-weight: normal;
         font-size: 20px;
@@ -160,11 +214,20 @@
         font-size: 36px;
         line-height: 54px;
         letter-spacing: 0.3px;
+
+        @include screen-mob {
+            font-size: 28px;
+            line-height: 42px;
+        }
     }
 
     img {
-        border: 20px solid #252832;
-        box-sizing: border-box;
+        box-shadow: 0px 0px 164px 30px rgba(31, 62, 200, 0.4);
+        border-radius: 8px;
+
+        @include screen-mob {
+            box-shadow: none;
+        }
     }
 
     .description {
@@ -172,6 +235,7 @@
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
+        opacity: 0.7;
     }
 
     .accordion {
@@ -237,6 +301,25 @@
 }
 
 #feature-offerings {
+    @include screen-mob {
+        padding-bottom: 5rem !important;
+    }
+
+    .offerings-hero-img {
+        @include screen-mob {
+            display: none !important;
+        }
+    }
+
+    .offering-hero-mob {
+        @include screen-tab-desk {
+            display: none !important;
+        }
+
+        margin-top: 100px;
+        margin-bottom: 55px;
+    }
+
     .title {
         font-size: 20px;
         line-height: 45px;
@@ -248,37 +331,75 @@
         font-size: 36px;
         line-height: 54px;
         letter-spacing: 0.3px;
+
+        @include screen-mob {
+            font-size: 28px;
+            line-height: 42px;
+        }
     }
 
     .description {
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
+
+        @include screen-mob {
+            opacity: 0.7;
+            margin-top: 20px;
+        }
+    }
+
+    .offering-row1 {
+        @include screen-mob {
+            flex-direction: column !important;
+        }
+    }
+
+    .offering-row2 {
+        @include screen-mob {
+            width: 100%;
+            margin-right: 0 !important;
+        }
     }
 
     .offering-container {
         max-width: 275px;
+
+        @include screen-mob {
+            max-width: 100% !important;
+            margin-right: 0 !important;
+        }
     }
 
-    .blue-circle {
-        background: #1E46F2;
-        border-radius: 20px;
-        width: 35px;
-        height: 35px;
-    }
+    // .blue-circle {
+    //     background: #1E46F2;
+    //     border-radius: 20px;
+    //     width: 35px;
+    //     height: 35px;
+    // }
 
     .offering-title {
         font-weight: 600;
         font-size: 20px;
         line-height: 24px;
         margin-top: 20px;
+
+        @include screen-mob {
+            line-height: 28px;
+            letter-spacing: 0.5px;
+        }
     }
 
     .offering-description {
         font-weight: normal;
         font-size: 14px;
         line-height: 20px;
-        color: #A4ADCF;
+        color: #818DBF;
+
+        @include screen-mob {
+            font-weight: 500;
+            line-height: 22px;
+        }
     }
 }
 
