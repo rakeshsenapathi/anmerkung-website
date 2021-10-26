@@ -733,7 +733,7 @@ footer .menu-item {
       width: 10px; }
 
 #oval-shape-blend {
-  height: 800px;
+  height: 665px;
   position: relative; }
   @media (min-width: 300px) and (max-width: 1309px) {
     #oval-shape-blend {
@@ -750,6 +750,7 @@ footer .menu-item {
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #E8E8E8;
+    border-bottom: 0;
     color: transparent; }
 
 #img-container--1 {
@@ -864,7 +865,7 @@ footer .menu-item {
   position: absolute;
   left: 12%;
   top: 41%;
-  width: 20%; }
+  width: 25%; }
   #oval-shape-content--title {
     font-size: 34px;
     font-weight: 600; }
